@@ -5,26 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_bg"
-    tools:context=".MainActivity">
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/cd_googleIcon"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.194"
-        app:srcCompat="@drawable/google_logo" />
+    tools:context=".HomeActivity">
 
     <TextView
         android:id="@+id/accountCenterText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tv_centerTextMain"
         android:textColor="#006064"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,12 +22,12 @@
 
     <Button
         android:id="@+id/SignOutBtn"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:backgroundTint="#34DBF7"
         android:paddingHorizontal="24dp"
         android:shadowColor="#000000"
-        android:text="@string/btn_signInText"
+        android:text="@string/btn_signOutText"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#292929"
@@ -61,4 +47,5 @@
         app:strokeColor="#007285"
         app:strokeWidth="1dp"
         tools:ignore="TextContrastCheck" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

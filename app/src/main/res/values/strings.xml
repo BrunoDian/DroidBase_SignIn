@@ -3,4 +3,5 @@
     <string name="tv_centerTextMain">Sign in with Google!</string>
     <string name="cd_googleIcon">Google_icon</string>
     <string name="btn_signInText">Sign In</string>
+    <string name="btn_signOutText">Sign Out</string>
 </resources>
